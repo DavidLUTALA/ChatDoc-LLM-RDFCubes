@@ -1,0 +1,1905 @@
+@prefix cube: <http://purl.org/linked-data/cube#> .
+@prefix edu: <http://example.org/education/> .
+@prefix ex: <http://example.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+edu:AttendanceRate a cube:MeasureProperty .
+
+edu:Class a cube:DimensionProperty .
+
+edu:Score a cube:MeasureProperty .
+
+edu:Subject a cube:DimensionProperty .
+
+edu:Year a cube:DimensionProperty .
+
+ex:observation1 a cube:Observation ;
+    edu:AttendanceRate "96.67"^^xsd:float ;
+    edu:Class "Première Année" ;
+    edu:Score 93.33 ;
+    edu:Subject "Mathématiques" ;
+    edu:Year "2019"^^xsd:gYear .
+
+ex:observation10 a cube:Observation ;
+    edu:AttendanceRate "86.67"^^xsd:float ;
+    edu:Class "Quatrième Année" ;
+    edu:Score 73.33 ;
+    edu:Subject "Science" ;
+    edu:Year "2019"^^xsd:gYear .
+
+ex:observation100 a cube:Observation ;
+    edu:AttendanceRate "93.33"^^xsd:float ;
+    edu:Class "Quatrième Année" ;
+    edu:Score 86.67 ;
+    edu:Subject "Anglais" ;
+    edu:Year "2020"^^xsd:gYear .
+
+ex:observation101 a cube:Observation ;
+    edu:AttendanceRate "85.0"^^xsd:float ;
+    edu:Class "Cinquième Année" ;
+    edu:Score 70.0 ;
+    edu:Subject "Anglais" ;
+    edu:Year "2020"^^xsd:gYear .
+
+ex:observation102 a cube:Observation ;
+    edu:AttendanceRate "96.67"^^xsd:float ;
+    edu:Class "Sixième Année" ;
+    edu:Score 93.33 ;
+    edu:Subject "Anglais" ;
+    edu:Year "2020"^^xsd:gYear .
+
+ex:observation103 a cube:Observation ;
+    edu:AttendanceRate "95.0"^^xsd:float ;
+    edu:Class "Première Année" ;
+    edu:Score 90.0 ;
+    edu:Subject "Trigonométrie" ;
+    edu:Year "2020"^^xsd:gYear .
+
+ex:observation104 a cube:Observation ;
+    edu:AttendanceRate "91.67"^^xsd:float ;
+    edu:Class "Deuxième Année" ;
+    edu:Score 83.33 ;
+    edu:Subject "Trigonométrie" ;
+    edu:Year "2020"^^xsd:gYear .
+
+ex:observation105 a cube:Observation ;
+    edu:AttendanceRate "91.67"^^xsd:float ;
+    edu:Class "Troisième Année" ;
+    edu:Score 83.33 ;
+    edu:Subject "Trigonométrie" ;
+    edu:Year "2020"^^xsd:gYear .
+
+ex:observation106 a cube:Observation ;
+    edu:AttendanceRate "85.0"^^xsd:float ;
+    edu:Class "Quatrième Année" ;
+    edu:Score 70.0 ;
+    edu:Subject "Trigonométrie" ;
+    edu:Year "2020"^^xsd:gYear .
+
+ex:observation107 a cube:Observation ;
+    edu:AttendanceRate "88.33"^^xsd:float ;
+    edu:Class "Cinquième Année" ;
+    edu:Score 76.67 ;
+    edu:Subject "Trigonométrie" ;
+    edu:Year "2020"^^xsd:gYear .
+
+ex:observation108 a cube:Observation ;
+    edu:AttendanceRate "90.0"^^xsd:float ;
+    edu:Class "Sixième Année" ;
+    edu:Score 80.0 ;
+    edu:Subject "Trigonométrie" ;
+    edu:Year "2020"^^xsd:gYear .
+
+ex:observation109 a cube:Observation ;
+    edu:AttendanceRate "85.0"^^xsd:float ;
+    edu:Class "Première Année" ;
+    edu:Score 70.0 ;
+    edu:Subject "Mathématiques" ;
+    edu:Year "2021"^^xsd:gYear .
+
+ex:observation11 a cube:Observation ;
+    edu:AttendanceRate "96.67"^^xsd:float ;
+    edu:Class "Cinquième Année" ;
+    edu:Score 93.33 ;
+    edu:Subject "Science" ;
+    edu:Year "2019"^^xsd:gYear .
+
+ex:observation110 a cube:Observation ;
+    edu:AttendanceRate "91.67"^^xsd:float ;
+    edu:Class "Deuxième Année" ;
+    edu:Score 83.33 ;
+    edu:Subject "Mathématiques" ;
+    edu:Year "2021"^^xsd:gYear .
+
+ex:observation111 a cube:Observation ;
+    edu:AttendanceRate "96.67"^^xsd:float ;
+    edu:Class "Troisième Année" ;
+    edu:Score 93.33 ;
+    edu:Subject "Mathématiques" ;
+    edu:Year "2021"^^xsd:gYear .
+
+ex:observation112 a cube:Observation ;
+    edu:AttendanceRate "98.33"^^xsd:float ;
+    edu:Class "Quatrième Année" ;
+    edu:Score 96.67 ;
+    edu:Subject "Mathématiques" ;
+    edu:Year "2021"^^xsd:gYear .
+
+ex:observation113 a cube:Observation ;
+    edu:AttendanceRate "86.67"^^xsd:float ;
+    edu:Class "Cinquième Année" ;
+    edu:Score 73.33 ;
+    edu:Subject "Mathématiques" ;
+    edu:Year "2021"^^xsd:gYear .
+
+ex:observation114 a cube:Observation ;
+    edu:AttendanceRate "95.0"^^xsd:float ;
+    edu:Class "Sixième Année" ;
+    edu:Score 90.0 ;
+    edu:Subject "Mathématiques" ;
+    edu:Year "2021"^^xsd:gYear .
+
+ex:observation115 a cube:Observation ;
+    edu:AttendanceRate "93.33"^^xsd:float ;
+    edu:Class "Première Année" ;
+    edu:Score 86.67 ;
+    edu:Subject "Science" ;
+    edu:Year "2021"^^xsd:gYear .
+
+ex:observation116 a cube:Observation ;
+    edu:AttendanceRate "98.33"^^xsd:float ;
+    edu:Class "Deuxième Année" ;
+    edu:Score 96.67 ;
+    edu:Subject "Science" ;
+    edu:Year "2021"^^xsd:gYear .
+
+ex:observation117 a cube:Observation ;
+    edu:AttendanceRate "96.67"^^xsd:float ;
+    edu:Class "Troisième Année" ;
+    edu:Score 93.33 ;
+    edu:Subject "Science" ;
+    edu:Year "2021"^^xsd:gYear .
+
+ex:observation118 a cube:Observation ;
+    edu:AttendanceRate "86.67"^^xsd:float ;
+    edu:Class "Quatrième Année" ;
+    edu:Score 73.33 ;
+    edu:Subject "Science" ;
+    edu:Year "2021"^^xsd:gYear .
+
+ex:observation119 a cube:Observation ;
+    edu:AttendanceRate "91.67"^^xsd:float ;
+    edu:Class "Cinquième Année" ;
+    edu:Score 83.33 ;
+    edu:Subject "Science" ;
+    edu:Year "2021"^^xsd:gYear .
+
+ex:observation12 a cube:Observation ;
+    edu:AttendanceRate "96.67"^^xsd:float ;
+    edu:Class "Sixième Année" ;
+    edu:Score 93.33 ;
+    edu:Subject "Science" ;
+    edu:Year "2019"^^xsd:gYear .
+
+ex:observation120 a cube:Observation ;
+    edu:AttendanceRate "86.67"^^xsd:float ;
+    edu:Class "Sixième Année" ;
+    edu:Score 73.33 ;
+    edu:Subject "Science" ;
+    edu:Year "2021"^^xsd:gYear .
+
+ex:observation121 a cube:Observation ;
+    edu:AttendanceRate "93.33"^^xsd:float ;
+    edu:Class "Première Année" ;
+    edu:Score 86.67 ;
+    edu:Subject "Géographie" ;
+    edu:Year "2021"^^xsd:gYear .
+
+ex:observation122 a cube:Observation ;
+    edu:AttendanceRate "86.67"^^xsd:float ;
+    edu:Class "Deuxième Année" ;
+    edu:Score 73.33 ;
+    edu:Subject "Géographie" ;
+    edu:Year "2021"^^xsd:gYear .
+
+ex:observation123 a cube:Observation ;
+    edu:AttendanceRate "95.0"^^xsd:float ;
+    edu:Class "Troisième Année" ;
+    edu:Score 90.0 ;
+    edu:Subject "Géographie" ;
+    edu:Year "2021"^^xsd:gYear .
+
+ex:observation124 a cube:Observation ;
+    edu:AttendanceRate "88.33"^^xsd:float ;
+    edu:Class "Quatrième Année" ;
+    edu:Score 76.67 ;
+    edu:Subject "Géographie" ;
+    edu:Year "2021"^^xsd:gYear .
+
+ex:observation125 a cube:Observation ;
+    edu:AttendanceRate "96.67"^^xsd:float ;
+    edu:Class "Cinquième Année" ;
+    edu:Score 93.33 ;
+    edu:Subject "Géographie" ;
+    edu:Year "2021"^^xsd:gYear .
+
+ex:observation126 a cube:Observation ;
+    edu:AttendanceRate "91.67"^^xsd:float ;
+    edu:Class "Sixième Année" ;
+    edu:Score 83.33 ;
+    edu:Subject "Géographie" ;
+    edu:Year "2021"^^xsd:gYear .
+
+ex:observation127 a cube:Observation ;
+    edu:AttendanceRate "98.33"^^xsd:float ;
+    edu:Class "Première Année" ;
+    edu:Score 96.67 ;
+    edu:Subject "Histoire" ;
+    edu:Year "2021"^^xsd:gYear .
+
+ex:observation128 a cube:Observation ;
+    edu:AttendanceRate "96.67"^^xsd:float ;
+    edu:Class "Deuxième Année" ;
+    edu:Score 93.33 ;
+    edu:Subject "Histoire" ;
+    edu:Year "2021"^^xsd:gYear .
+
+ex:observation129 a cube:Observation ;
+    edu:AttendanceRate "85.0"^^xsd:float ;
+    edu:Class "Troisième Année" ;
+    edu:Score 70.0 ;
+    edu:Subject "Histoire" ;
+    edu:Year "2021"^^xsd:gYear .
+
+ex:observation13 a cube:Observation ;
+    edu:AttendanceRate "96.67"^^xsd:float ;
+    edu:Class "Première Année" ;
+    edu:Score 93.33 ;
+    edu:Subject "Géographie" ;
+    edu:Year "2019"^^xsd:gYear .
+
+ex:observation130 a cube:Observation ;
+    edu:AttendanceRate "93.33"^^xsd:float ;
+    edu:Class "Quatrième Année" ;
+    edu:Score 86.67 ;
+    edu:Subject "Histoire" ;
+    edu:Year "2021"^^xsd:gYear .
+
+ex:observation131 a cube:Observation ;
+    edu:AttendanceRate "86.67"^^xsd:float ;
+    edu:Class "Cinquième Année" ;
+    edu:Score 73.33 ;
+    edu:Subject "Histoire" ;
+    edu:Year "2021"^^xsd:gYear .
+
+ex:observation132 a cube:Observation ;
+    edu:AttendanceRate "96.67"^^xsd:float ;
+    edu:Class "Sixième Année" ;
+    edu:Score 93.33 ;
+    edu:Subject "Histoire" ;
+    edu:Year "2021"^^xsd:gYear .
+
+ex:observation133 a cube:Observation ;
+    edu:AttendanceRate "90.0"^^xsd:float ;
+    edu:Class "Première Année" ;
+    edu:Score 80.0 ;
+    edu:Subject "Chimie" ;
+    edu:Year "2021"^^xsd:gYear .
+
+ex:observation134 a cube:Observation ;
+    edu:AttendanceRate "95.0"^^xsd:float ;
+    edu:Class "Deuxième Année" ;
+    edu:Score 90.0 ;
+    edu:Subject "Chimie" ;
+    edu:Year "2021"^^xsd:gYear .
+
+ex:observation135 a cube:Observation ;
+    edu:AttendanceRate "85.0"^^xsd:float ;
+    edu:Class "Troisième Année" ;
+    edu:Score 70.0 ;
+    edu:Subject "Chimie" ;
+    edu:Year "2021"^^xsd:gYear .
+
+ex:observation136 a cube:Observation ;
+    edu:AttendanceRate "90.0"^^xsd:float ;
+    edu:Class "Quatrième Année" ;
+    edu:Score 80.0 ;
+    edu:Subject "Chimie" ;
+    edu:Year "2021"^^xsd:gYear .
+
+ex:observation137 a cube:Observation ;
+    edu:AttendanceRate "85.0"^^xsd:float ;
+    edu:Class "Cinquième Année" ;
+    edu:Score 70.0 ;
+    edu:Subject "Chimie" ;
+    edu:Year "2021"^^xsd:gYear .
+
+ex:observation138 a cube:Observation ;
+    edu:AttendanceRate "98.33"^^xsd:float ;
+    edu:Class "Sixième Année" ;
+    edu:Score 96.67 ;
+    edu:Subject "Chimie" ;
+    edu:Year "2021"^^xsd:gYear .
+
+ex:observation139 a cube:Observation ;
+    edu:AttendanceRate "88.33"^^xsd:float ;
+    edu:Class "Première Année" ;
+    edu:Score 76.67 ;
+    edu:Subject "Technologie" ;
+    edu:Year "2021"^^xsd:gYear .
+
+ex:observation14 a cube:Observation ;
+    edu:AttendanceRate "91.67"^^xsd:float ;
+    edu:Class "Deuxième Année" ;
+    edu:Score 83.33 ;
+    edu:Subject "Géographie" ;
+    edu:Year "2019"^^xsd:gYear .
+
+ex:observation140 a cube:Observation ;
+    edu:AttendanceRate "91.67"^^xsd:float ;
+    edu:Class "Deuxième Année" ;
+    edu:Score 83.33 ;
+    edu:Subject "Technologie" ;
+    edu:Year "2021"^^xsd:gYear .
+
+ex:observation141 a cube:Observation ;
+    edu:AttendanceRate "91.67"^^xsd:float ;
+    edu:Class "Troisième Année" ;
+    edu:Score 83.33 ;
+    edu:Subject "Technologie" ;
+    edu:Year "2021"^^xsd:gYear .
+
+ex:observation142 a cube:Observation ;
+    edu:AttendanceRate "88.33"^^xsd:float ;
+    edu:Class "Quatrième Année" ;
+    edu:Score 76.67 ;
+    edu:Subject "Technologie" ;
+    edu:Year "2021"^^xsd:gYear .
+
+ex:observation143 a cube:Observation ;
+    edu:AttendanceRate "91.67"^^xsd:float ;
+    edu:Class "Cinquième Année" ;
+    edu:Score 83.33 ;
+    edu:Subject "Technologie" ;
+    edu:Year "2021"^^xsd:gYear .
+
+ex:observation144 a cube:Observation ;
+    edu:AttendanceRate "98.33"^^xsd:float ;
+    edu:Class "Sixième Année" ;
+    edu:Score 96.67 ;
+    edu:Subject "Technologie" ;
+    edu:Year "2021"^^xsd:gYear .
+
+ex:observation145 a cube:Observation ;
+    edu:AttendanceRate "98.33"^^xsd:float ;
+    edu:Class "Première Année" ;
+    edu:Score 96.67 ;
+    edu:Subject "Français" ;
+    edu:Year "2021"^^xsd:gYear .
+
+ex:observation146 a cube:Observation ;
+    edu:AttendanceRate "98.33"^^xsd:float ;
+    edu:Class "Deuxième Année" ;
+    edu:Score 96.67 ;
+    edu:Subject "Français" ;
+    edu:Year "2021"^^xsd:gYear .
+
+ex:observation147 a cube:Observation ;
+    edu:AttendanceRate "91.67"^^xsd:float ;
+    edu:Class "Troisième Année" ;
+    edu:Score 83.33 ;
+    edu:Subject "Français" ;
+    edu:Year "2021"^^xsd:gYear .
+
+ex:observation148 a cube:Observation ;
+    edu:AttendanceRate "100.0"^^xsd:float ;
+    edu:Class "Quatrième Année" ;
+    edu:Score 100.0 ;
+    edu:Subject "Français" ;
+    edu:Year "2021"^^xsd:gYear .
+
+ex:observation149 a cube:Observation ;
+    edu:AttendanceRate "98.33"^^xsd:float ;
+    edu:Class "Cinquième Année" ;
+    edu:Score 96.67 ;
+    edu:Subject "Français" ;
+    edu:Year "2021"^^xsd:gYear .
+
+ex:observation15 a cube:Observation ;
+    edu:AttendanceRate "93.33"^^xsd:float ;
+    edu:Class "Troisième Année" ;
+    edu:Score 86.67 ;
+    edu:Subject "Géographie" ;
+    edu:Year "2019"^^xsd:gYear .
+
+ex:observation150 a cube:Observation ;
+    edu:AttendanceRate "100.0"^^xsd:float ;
+    edu:Class "Sixième Année" ;
+    edu:Score 100.0 ;
+    edu:Subject "Français" ;
+    edu:Year "2021"^^xsd:gYear .
+
+ex:observation151 a cube:Observation ;
+    edu:AttendanceRate "100.0"^^xsd:float ;
+    edu:Class "Première Année" ;
+    edu:Score 100.0 ;
+    edu:Subject "Anglais" ;
+    edu:Year "2021"^^xsd:gYear .
+
+ex:observation152 a cube:Observation ;
+    edu:AttendanceRate "90.0"^^xsd:float ;
+    edu:Class "Deuxième Année" ;
+    edu:Score 80.0 ;
+    edu:Subject "Anglais" ;
+    edu:Year "2021"^^xsd:gYear .
+
+ex:observation153 a cube:Observation ;
+    edu:AttendanceRate "100.0"^^xsd:float ;
+    edu:Class "Troisième Année" ;
+    edu:Score 100.0 ;
+    edu:Subject "Anglais" ;
+    edu:Year "2021"^^xsd:gYear .
+
+ex:observation154 a cube:Observation ;
+    edu:AttendanceRate "96.67"^^xsd:float ;
+    edu:Class "Quatrième Année" ;
+    edu:Score 93.33 ;
+    edu:Subject "Anglais" ;
+    edu:Year "2021"^^xsd:gYear .
+
+ex:observation155 a cube:Observation ;
+    edu:AttendanceRate "86.67"^^xsd:float ;
+    edu:Class "Cinquième Année" ;
+    edu:Score 73.33 ;
+    edu:Subject "Anglais" ;
+    edu:Year "2021"^^xsd:gYear .
+
+ex:observation156 a cube:Observation ;
+    edu:AttendanceRate "85.0"^^xsd:float ;
+    edu:Class "Sixième Année" ;
+    edu:Score 70.0 ;
+    edu:Subject "Anglais" ;
+    edu:Year "2021"^^xsd:gYear .
+
+ex:observation157 a cube:Observation ;
+    edu:AttendanceRate "85.0"^^xsd:float ;
+    edu:Class "Première Année" ;
+    edu:Score 70.0 ;
+    edu:Subject "Trigonométrie" ;
+    edu:Year "2021"^^xsd:gYear .
+
+ex:observation158 a cube:Observation ;
+    edu:AttendanceRate "100.0"^^xsd:float ;
+    edu:Class "Deuxième Année" ;
+    edu:Score 100.0 ;
+    edu:Subject "Trigonométrie" ;
+    edu:Year "2021"^^xsd:gYear .
+
+ex:observation159 a cube:Observation ;
+    edu:AttendanceRate "90.0"^^xsd:float ;
+    edu:Class "Troisième Année" ;
+    edu:Score 80.0 ;
+    edu:Subject "Trigonométrie" ;
+    edu:Year "2021"^^xsd:gYear .
+
+ex:observation16 a cube:Observation ;
+    edu:AttendanceRate "91.67"^^xsd:float ;
+    edu:Class "Quatrième Année" ;
+    edu:Score 83.33 ;
+    edu:Subject "Géographie" ;
+    edu:Year "2019"^^xsd:gYear .
+
+ex:observation160 a cube:Observation ;
+    edu:AttendanceRate "88.33"^^xsd:float ;
+    edu:Class "Quatrième Année" ;
+    edu:Score 76.67 ;
+    edu:Subject "Trigonométrie" ;
+    edu:Year "2021"^^xsd:gYear .
+
+ex:observation161 a cube:Observation ;
+    edu:AttendanceRate "85.0"^^xsd:float ;
+    edu:Class "Cinquième Année" ;
+    edu:Score 70.0 ;
+    edu:Subject "Trigonométrie" ;
+    edu:Year "2021"^^xsd:gYear .
+
+ex:observation162 a cube:Observation ;
+    edu:AttendanceRate "85.0"^^xsd:float ;
+    edu:Class "Sixième Année" ;
+    edu:Score 70.0 ;
+    edu:Subject "Trigonométrie" ;
+    edu:Year "2021"^^xsd:gYear .
+
+ex:observation163 a cube:Observation ;
+    edu:AttendanceRate "93.33"^^xsd:float ;
+    edu:Class "Première Année" ;
+    edu:Score 86.67 ;
+    edu:Subject "Mathématiques" ;
+    edu:Year "2022"^^xsd:gYear .
+
+ex:observation164 a cube:Observation ;
+    edu:AttendanceRate "85.0"^^xsd:float ;
+    edu:Class "Deuxième Année" ;
+    edu:Score 70.0 ;
+    edu:Subject "Mathématiques" ;
+    edu:Year "2022"^^xsd:gYear .
+
+ex:observation165 a cube:Observation ;
+    edu:AttendanceRate "91.67"^^xsd:float ;
+    edu:Class "Troisième Année" ;
+    edu:Score 83.33 ;
+    edu:Subject "Mathématiques" ;
+    edu:Year "2022"^^xsd:gYear .
+
+ex:observation166 a cube:Observation ;
+    edu:AttendanceRate "88.33"^^xsd:float ;
+    edu:Class "Quatrième Année" ;
+    edu:Score 76.67 ;
+    edu:Subject "Mathématiques" ;
+    edu:Year "2022"^^xsd:gYear .
+
+ex:observation167 a cube:Observation ;
+    edu:AttendanceRate "98.33"^^xsd:float ;
+    edu:Class "Cinquième Année" ;
+    edu:Score 96.67 ;
+    edu:Subject "Mathématiques" ;
+    edu:Year "2022"^^xsd:gYear .
+
+ex:observation168 a cube:Observation ;
+    edu:AttendanceRate "100.0"^^xsd:float ;
+    edu:Class "Sixième Année" ;
+    edu:Score 100.0 ;
+    edu:Subject "Mathématiques" ;
+    edu:Year "2022"^^xsd:gYear .
+
+ex:observation169 a cube:Observation ;
+    edu:AttendanceRate "93.33"^^xsd:float ;
+    edu:Class "Première Année" ;
+    edu:Score 86.67 ;
+    edu:Subject "Science" ;
+    edu:Year "2022"^^xsd:gYear .
+
+ex:observation17 a cube:Observation ;
+    edu:AttendanceRate "88.33"^^xsd:float ;
+    edu:Class "Cinquième Année" ;
+    edu:Score 76.67 ;
+    edu:Subject "Géographie" ;
+    edu:Year "2019"^^xsd:gYear .
+
+ex:observation170 a cube:Observation ;
+    edu:AttendanceRate "90.0"^^xsd:float ;
+    edu:Class "Deuxième Année" ;
+    edu:Score 80.0 ;
+    edu:Subject "Science" ;
+    edu:Year "2022"^^xsd:gYear .
+
+ex:observation171 a cube:Observation ;
+    edu:AttendanceRate "93.33"^^xsd:float ;
+    edu:Class "Troisième Année" ;
+    edu:Score 86.67 ;
+    edu:Subject "Science" ;
+    edu:Year "2022"^^xsd:gYear .
+
+ex:observation172 a cube:Observation ;
+    edu:AttendanceRate "90.0"^^xsd:float ;
+    edu:Class "Quatrième Année" ;
+    edu:Score 80.0 ;
+    edu:Subject "Science" ;
+    edu:Year "2022"^^xsd:gYear .
+
+ex:observation173 a cube:Observation ;
+    edu:AttendanceRate "86.67"^^xsd:float ;
+    edu:Class "Cinquième Année" ;
+    edu:Score 73.33 ;
+    edu:Subject "Science" ;
+    edu:Year "2022"^^xsd:gYear .
+
+ex:observation174 a cube:Observation ;
+    edu:AttendanceRate "96.67"^^xsd:float ;
+    edu:Class "Sixième Année" ;
+    edu:Score 93.33 ;
+    edu:Subject "Science" ;
+    edu:Year "2022"^^xsd:gYear .
+
+ex:observation175 a cube:Observation ;
+    edu:AttendanceRate "96.67"^^xsd:float ;
+    edu:Class "Première Année" ;
+    edu:Score 93.33 ;
+    edu:Subject "Géographie" ;
+    edu:Year "2022"^^xsd:gYear .
+
+ex:observation176 a cube:Observation ;
+    edu:AttendanceRate "86.67"^^xsd:float ;
+    edu:Class "Deuxième Année" ;
+    edu:Score 73.33 ;
+    edu:Subject "Géographie" ;
+    edu:Year "2022"^^xsd:gYear .
+
+ex:observation177 a cube:Observation ;
+    edu:AttendanceRate "86.67"^^xsd:float ;
+    edu:Class "Troisième Année" ;
+    edu:Score 73.33 ;
+    edu:Subject "Géographie" ;
+    edu:Year "2022"^^xsd:gYear .
+
+ex:observation178 a cube:Observation ;
+    edu:AttendanceRate "96.67"^^xsd:float ;
+    edu:Class "Quatrième Année" ;
+    edu:Score 93.33 ;
+    edu:Subject "Géographie" ;
+    edu:Year "2022"^^xsd:gYear .
+
+ex:observation179 a cube:Observation ;
+    edu:AttendanceRate "95.0"^^xsd:float ;
+    edu:Class "Cinquième Année" ;
+    edu:Score 90.0 ;
+    edu:Subject "Géographie" ;
+    edu:Year "2022"^^xsd:gYear .
+
+ex:observation18 a cube:Observation ;
+    edu:AttendanceRate "86.67"^^xsd:float ;
+    edu:Class "Sixième Année" ;
+    edu:Score 73.33 ;
+    edu:Subject "Géographie" ;
+    edu:Year "2019"^^xsd:gYear .
+
+ex:observation180 a cube:Observation ;
+    edu:AttendanceRate "93.33"^^xsd:float ;
+    edu:Class "Sixième Année" ;
+    edu:Score 86.67 ;
+    edu:Subject "Géographie" ;
+    edu:Year "2022"^^xsd:gYear .
+
+ex:observation181 a cube:Observation ;
+    edu:AttendanceRate "88.33"^^xsd:float ;
+    edu:Class "Première Année" ;
+    edu:Score 76.67 ;
+    edu:Subject "Histoire" ;
+    edu:Year "2022"^^xsd:gYear .
+
+ex:observation182 a cube:Observation ;
+    edu:AttendanceRate "93.33"^^xsd:float ;
+    edu:Class "Deuxième Année" ;
+    edu:Score 86.67 ;
+    edu:Subject "Histoire" ;
+    edu:Year "2022"^^xsd:gYear .
+
+ex:observation183 a cube:Observation ;
+    edu:AttendanceRate "88.33"^^xsd:float ;
+    edu:Class "Troisième Année" ;
+    edu:Score 76.67 ;
+    edu:Subject "Histoire" ;
+    edu:Year "2022"^^xsd:gYear .
+
+ex:observation184 a cube:Observation ;
+    edu:AttendanceRate "88.33"^^xsd:float ;
+    edu:Class "Quatrième Année" ;
+    edu:Score 76.67 ;
+    edu:Subject "Histoire" ;
+    edu:Year "2022"^^xsd:gYear .
+
+ex:observation185 a cube:Observation ;
+    edu:AttendanceRate "86.67"^^xsd:float ;
+    edu:Class "Cinquième Année" ;
+    edu:Score 73.33 ;
+    edu:Subject "Histoire" ;
+    edu:Year "2022"^^xsd:gYear .
+
+ex:observation186 a cube:Observation ;
+    edu:AttendanceRate "90.0"^^xsd:float ;
+    edu:Class "Sixième Année" ;
+    edu:Score 80.0 ;
+    edu:Subject "Histoire" ;
+    edu:Year "2022"^^xsd:gYear .
+
+ex:observation187 a cube:Observation ;
+    edu:AttendanceRate "91.67"^^xsd:float ;
+    edu:Class "Première Année" ;
+    edu:Score 83.33 ;
+    edu:Subject "Chimie" ;
+    edu:Year "2022"^^xsd:gYear .
+
+ex:observation188 a cube:Observation ;
+    edu:AttendanceRate "98.33"^^xsd:float ;
+    edu:Class "Deuxième Année" ;
+    edu:Score 96.67 ;
+    edu:Subject "Chimie" ;
+    edu:Year "2022"^^xsd:gYear .
+
+ex:observation189 a cube:Observation ;
+    edu:AttendanceRate "86.67"^^xsd:float ;
+    edu:Class "Troisième Année" ;
+    edu:Score 73.33 ;
+    edu:Subject "Chimie" ;
+    edu:Year "2022"^^xsd:gYear .
+
+ex:observation19 a cube:Observation ;
+    edu:AttendanceRate "93.33"^^xsd:float ;
+    edu:Class "Première Année" ;
+    edu:Score 86.67 ;
+    edu:Subject "Histoire" ;
+    edu:Year "2019"^^xsd:gYear .
+
+ex:observation190 a cube:Observation ;
+    edu:AttendanceRate "86.67"^^xsd:float ;
+    edu:Class "Quatrième Année" ;
+    edu:Score 73.33 ;
+    edu:Subject "Chimie" ;
+    edu:Year "2022"^^xsd:gYear .
+
+ex:observation191 a cube:Observation ;
+    edu:AttendanceRate "90.0"^^xsd:float ;
+    edu:Class "Cinquième Année" ;
+    edu:Score 80.0 ;
+    edu:Subject "Chimie" ;
+    edu:Year "2022"^^xsd:gYear .
+
+ex:observation192 a cube:Observation ;
+    edu:AttendanceRate "86.67"^^xsd:float ;
+    edu:Class "Sixième Année" ;
+    edu:Score 73.33 ;
+    edu:Subject "Chimie" ;
+    edu:Year "2022"^^xsd:gYear .
+
+ex:observation193 a cube:Observation ;
+    edu:AttendanceRate "85.0"^^xsd:float ;
+    edu:Class "Première Année" ;
+    edu:Score 70.0 ;
+    edu:Subject "Technologie" ;
+    edu:Year "2022"^^xsd:gYear .
+
+ex:observation194 a cube:Observation ;
+    edu:AttendanceRate "98.33"^^xsd:float ;
+    edu:Class "Deuxième Année" ;
+    edu:Score 96.67 ;
+    edu:Subject "Technologie" ;
+    edu:Year "2022"^^xsd:gYear .
+
+ex:observation195 a cube:Observation ;
+    edu:AttendanceRate "100.0"^^xsd:float ;
+    edu:Class "Troisième Année" ;
+    edu:Score 100.0 ;
+    edu:Subject "Technologie" ;
+    edu:Year "2022"^^xsd:gYear .
+
+ex:observation196 a cube:Observation ;
+    edu:AttendanceRate "90.0"^^xsd:float ;
+    edu:Class "Quatrième Année" ;
+    edu:Score 80.0 ;
+    edu:Subject "Technologie" ;
+    edu:Year "2022"^^xsd:gYear .
+
+ex:observation197 a cube:Observation ;
+    edu:AttendanceRate "93.33"^^xsd:float ;
+    edu:Class "Cinquième Année" ;
+    edu:Score 86.67 ;
+    edu:Subject "Technologie" ;
+    edu:Year "2022"^^xsd:gYear .
+
+ex:observation198 a cube:Observation ;
+    edu:AttendanceRate "86.67"^^xsd:float ;
+    edu:Class "Sixième Année" ;
+    edu:Score 73.33 ;
+    edu:Subject "Technologie" ;
+    edu:Year "2022"^^xsd:gYear .
+
+ex:observation199 a cube:Observation ;
+    edu:AttendanceRate "93.33"^^xsd:float ;
+    edu:Class "Première Année" ;
+    edu:Score 86.67 ;
+    edu:Subject "Français" ;
+    edu:Year "2022"^^xsd:gYear .
+
+ex:observation2 a cube:Observation ;
+    edu:AttendanceRate "85.0"^^xsd:float ;
+    edu:Class "Deuxième Année" ;
+    edu:Score 70.0 ;
+    edu:Subject "Mathématiques" ;
+    edu:Year "2019"^^xsd:gYear .
+
+ex:observation20 a cube:Observation ;
+    edu:AttendanceRate "90.0"^^xsd:float ;
+    edu:Class "Deuxième Année" ;
+    edu:Score 80.0 ;
+    edu:Subject "Histoire" ;
+    edu:Year "2019"^^xsd:gYear .
+
+ex:observation200 a cube:Observation ;
+    edu:AttendanceRate "93.33"^^xsd:float ;
+    edu:Class "Deuxième Année" ;
+    edu:Score 86.67 ;
+    edu:Subject "Français" ;
+    edu:Year "2022"^^xsd:gYear .
+
+ex:observation201 a cube:Observation ;
+    edu:AttendanceRate "85.0"^^xsd:float ;
+    edu:Class "Troisième Année" ;
+    edu:Score 70.0 ;
+    edu:Subject "Français" ;
+    edu:Year "2022"^^xsd:gYear .
+
+ex:observation202 a cube:Observation ;
+    edu:AttendanceRate "90.0"^^xsd:float ;
+    edu:Class "Quatrième Année" ;
+    edu:Score 80.0 ;
+    edu:Subject "Français" ;
+    edu:Year "2022"^^xsd:gYear .
+
+ex:observation203 a cube:Observation ;
+    edu:AttendanceRate "91.67"^^xsd:float ;
+    edu:Class "Cinquième Année" ;
+    edu:Score 83.33 ;
+    edu:Subject "Français" ;
+    edu:Year "2022"^^xsd:gYear .
+
+ex:observation204 a cube:Observation ;
+    edu:AttendanceRate "90.0"^^xsd:float ;
+    edu:Class "Sixième Année" ;
+    edu:Score 80.0 ;
+    edu:Subject "Français" ;
+    edu:Year "2022"^^xsd:gYear .
+
+ex:observation205 a cube:Observation ;
+    edu:AttendanceRate "85.0"^^xsd:float ;
+    edu:Class "Première Année" ;
+    edu:Score 70.0 ;
+    edu:Subject "Anglais" ;
+    edu:Year "2022"^^xsd:gYear .
+
+ex:observation206 a cube:Observation ;
+    edu:AttendanceRate "86.67"^^xsd:float ;
+    edu:Class "Deuxième Année" ;
+    edu:Score 73.33 ;
+    edu:Subject "Anglais" ;
+    edu:Year "2022"^^xsd:gYear .
+
+ex:observation207 a cube:Observation ;
+    edu:AttendanceRate "100.0"^^xsd:float ;
+    edu:Class "Troisième Année" ;
+    edu:Score 100.0 ;
+    edu:Subject "Anglais" ;
+    edu:Year "2022"^^xsd:gYear .
+
+ex:observation208 a cube:Observation ;
+    edu:AttendanceRate "98.33"^^xsd:float ;
+    edu:Class "Quatrième Année" ;
+    edu:Score 96.67 ;
+    edu:Subject "Anglais" ;
+    edu:Year "2022"^^xsd:gYear .
+
+ex:observation209 a cube:Observation ;
+    edu:AttendanceRate "86.67"^^xsd:float ;
+    edu:Class "Cinquième Année" ;
+    edu:Score 73.33 ;
+    edu:Subject "Anglais" ;
+    edu:Year "2022"^^xsd:gYear .
+
+ex:observation21 a cube:Observation ;
+    edu:AttendanceRate "86.67"^^xsd:float ;
+    edu:Class "Troisième Année" ;
+    edu:Score 73.33 ;
+    edu:Subject "Histoire" ;
+    edu:Year "2019"^^xsd:gYear .
+
+ex:observation210 a cube:Observation ;
+    edu:AttendanceRate "95.0"^^xsd:float ;
+    edu:Class "Sixième Année" ;
+    edu:Score 90.0 ;
+    edu:Subject "Anglais" ;
+    edu:Year "2022"^^xsd:gYear .
+
+ex:observation211 a cube:Observation ;
+    edu:AttendanceRate "98.33"^^xsd:float ;
+    edu:Class "Première Année" ;
+    edu:Score 96.67 ;
+    edu:Subject "Trigonométrie" ;
+    edu:Year "2022"^^xsd:gYear .
+
+ex:observation212 a cube:Observation ;
+    edu:AttendanceRate "85.0"^^xsd:float ;
+    edu:Class "Deuxième Année" ;
+    edu:Score 70.0 ;
+    edu:Subject "Trigonométrie" ;
+    edu:Year "2022"^^xsd:gYear .
+
+ex:observation213 a cube:Observation ;
+    edu:AttendanceRate "98.33"^^xsd:float ;
+    edu:Class "Troisième Année" ;
+    edu:Score 96.67 ;
+    edu:Subject "Trigonométrie" ;
+    edu:Year "2022"^^xsd:gYear .
+
+ex:observation214 a cube:Observation ;
+    edu:AttendanceRate "93.33"^^xsd:float ;
+    edu:Class "Quatrième Année" ;
+    edu:Score 86.67 ;
+    edu:Subject "Trigonométrie" ;
+    edu:Year "2022"^^xsd:gYear .
+
+ex:observation215 a cube:Observation ;
+    edu:AttendanceRate "96.67"^^xsd:float ;
+    edu:Class "Cinquième Année" ;
+    edu:Score 93.33 ;
+    edu:Subject "Trigonométrie" ;
+    edu:Year "2022"^^xsd:gYear .
+
+ex:observation216 a cube:Observation ;
+    edu:AttendanceRate "95.0"^^xsd:float ;
+    edu:Class "Sixième Année" ;
+    edu:Score 90.0 ;
+    edu:Subject "Trigonométrie" ;
+    edu:Year "2022"^^xsd:gYear .
+
+ex:observation217 a cube:Observation ;
+    edu:AttendanceRate "90.0"^^xsd:float ;
+    edu:Class "Première Année" ;
+    edu:Score 80.0 ;
+    edu:Subject "Mathématiques" ;
+    edu:Year "2023"^^xsd:gYear .
+
+ex:observation218 a cube:Observation ;
+    edu:AttendanceRate "90.0"^^xsd:float ;
+    edu:Class "Deuxième Année" ;
+    edu:Score 80.0 ;
+    edu:Subject "Mathématiques" ;
+    edu:Year "2023"^^xsd:gYear .
+
+ex:observation219 a cube:Observation ;
+    edu:AttendanceRate "96.67"^^xsd:float ;
+    edu:Class "Troisième Année" ;
+    edu:Score 93.33 ;
+    edu:Subject "Mathématiques" ;
+    edu:Year "2023"^^xsd:gYear .
+
+ex:observation22 a cube:Observation ;
+    edu:AttendanceRate "93.33"^^xsd:float ;
+    edu:Class "Quatrième Année" ;
+    edu:Score 86.67 ;
+    edu:Subject "Histoire" ;
+    edu:Year "2019"^^xsd:gYear .
+
+ex:observation220 a cube:Observation ;
+    edu:AttendanceRate "88.33"^^xsd:float ;
+    edu:Class "Quatrième Année" ;
+    edu:Score 76.67 ;
+    edu:Subject "Mathématiques" ;
+    edu:Year "2023"^^xsd:gYear .
+
+ex:observation221 a cube:Observation ;
+    edu:AttendanceRate "100.0"^^xsd:float ;
+    edu:Class "Cinquième Année" ;
+    edu:Score 100.0 ;
+    edu:Subject "Mathématiques" ;
+    edu:Year "2023"^^xsd:gYear .
+
+ex:observation222 a cube:Observation ;
+    edu:AttendanceRate "93.33"^^xsd:float ;
+    edu:Class "Sixième Année" ;
+    edu:Score 86.67 ;
+    edu:Subject "Mathématiques" ;
+    edu:Year "2023"^^xsd:gYear .
+
+ex:observation223 a cube:Observation ;
+    edu:AttendanceRate "85.0"^^xsd:float ;
+    edu:Class "Première Année" ;
+    edu:Score 70.0 ;
+    edu:Subject "Science" ;
+    edu:Year "2023"^^xsd:gYear .
+
+ex:observation224 a cube:Observation ;
+    edu:AttendanceRate "93.33"^^xsd:float ;
+    edu:Class "Deuxième Année" ;
+    edu:Score 86.67 ;
+    edu:Subject "Science" ;
+    edu:Year "2023"^^xsd:gYear .
+
+ex:observation225 a cube:Observation ;
+    edu:AttendanceRate "88.33"^^xsd:float ;
+    edu:Class "Troisième Année" ;
+    edu:Score 76.67 ;
+    edu:Subject "Science" ;
+    edu:Year "2023"^^xsd:gYear .
+
+ex:observation226 a cube:Observation ;
+    edu:AttendanceRate "88.33"^^xsd:float ;
+    edu:Class "Quatrième Année" ;
+    edu:Score 76.67 ;
+    edu:Subject "Science" ;
+    edu:Year "2023"^^xsd:gYear .
+
+ex:observation227 a cube:Observation ;
+    edu:AttendanceRate "91.67"^^xsd:float ;
+    edu:Class "Cinquième Année" ;
+    edu:Score 83.33 ;
+    edu:Subject "Science" ;
+    edu:Year "2023"^^xsd:gYear .
+
+ex:observation228 a cube:Observation ;
+    edu:AttendanceRate "95.0"^^xsd:float ;
+    edu:Class "Sixième Année" ;
+    edu:Score 90.0 ;
+    edu:Subject "Science" ;
+    edu:Year "2023"^^xsd:gYear .
+
+ex:observation229 a cube:Observation ;
+    edu:AttendanceRate "88.33"^^xsd:float ;
+    edu:Class "Première Année" ;
+    edu:Score 76.67 ;
+    edu:Subject "Géographie" ;
+    edu:Year "2023"^^xsd:gYear .
+
+ex:observation23 a cube:Observation ;
+    edu:AttendanceRate "91.67"^^xsd:float ;
+    edu:Class "Cinquième Année" ;
+    edu:Score 83.33 ;
+    edu:Subject "Histoire" ;
+    edu:Year "2019"^^xsd:gYear .
+
+ex:observation230 a cube:Observation ;
+    edu:AttendanceRate "85.0"^^xsd:float ;
+    edu:Class "Deuxième Année" ;
+    edu:Score 70.0 ;
+    edu:Subject "Géographie" ;
+    edu:Year "2023"^^xsd:gYear .
+
+ex:observation231 a cube:Observation ;
+    edu:AttendanceRate "88.33"^^xsd:float ;
+    edu:Class "Troisième Année" ;
+    edu:Score 76.67 ;
+    edu:Subject "Géographie" ;
+    edu:Year "2023"^^xsd:gYear .
+
+ex:observation232 a cube:Observation ;
+    edu:AttendanceRate "95.0"^^xsd:float ;
+    edu:Class "Quatrième Année" ;
+    edu:Score 90.0 ;
+    edu:Subject "Géographie" ;
+    edu:Year "2023"^^xsd:gYear .
+
+ex:observation233 a cube:Observation ;
+    edu:AttendanceRate "98.33"^^xsd:float ;
+    edu:Class "Cinquième Année" ;
+    edu:Score 96.67 ;
+    edu:Subject "Géographie" ;
+    edu:Year "2023"^^xsd:gYear .
+
+ex:observation234 a cube:Observation ;
+    edu:AttendanceRate "96.67"^^xsd:float ;
+    edu:Class "Sixième Année" ;
+    edu:Score 93.33 ;
+    edu:Subject "Géographie" ;
+    edu:Year "2023"^^xsd:gYear .
+
+ex:observation235 a cube:Observation ;
+    edu:AttendanceRate "86.67"^^xsd:float ;
+    edu:Class "Première Année" ;
+    edu:Score 73.33 ;
+    edu:Subject "Histoire" ;
+    edu:Year "2023"^^xsd:gYear .
+
+ex:observation236 a cube:Observation ;
+    edu:AttendanceRate "100.0"^^xsd:float ;
+    edu:Class "Deuxième Année" ;
+    edu:Score 100.0 ;
+    edu:Subject "Histoire" ;
+    edu:Year "2023"^^xsd:gYear .
+
+ex:observation237 a cube:Observation ;
+    edu:AttendanceRate "98.33"^^xsd:float ;
+    edu:Class "Troisième Année" ;
+    edu:Score 96.67 ;
+    edu:Subject "Histoire" ;
+    edu:Year "2023"^^xsd:gYear .
+
+ex:observation238 a cube:Observation ;
+    edu:AttendanceRate "93.33"^^xsd:float ;
+    edu:Class "Quatrième Année" ;
+    edu:Score 86.67 ;
+    edu:Subject "Histoire" ;
+    edu:Year "2023"^^xsd:gYear .
+
+ex:observation239 a cube:Observation ;
+    edu:AttendanceRate "90.0"^^xsd:float ;
+    edu:Class "Cinquième Année" ;
+    edu:Score 80.0 ;
+    edu:Subject "Histoire" ;
+    edu:Year "2023"^^xsd:gYear .
+
+ex:observation24 a cube:Observation ;
+    edu:AttendanceRate "85.0"^^xsd:float ;
+    edu:Class "Sixième Année" ;
+    edu:Score 70.0 ;
+    edu:Subject "Histoire" ;
+    edu:Year "2019"^^xsd:gYear .
+
+ex:observation240 a cube:Observation ;
+    edu:AttendanceRate "90.0"^^xsd:float ;
+    edu:Class "Sixième Année" ;
+    edu:Score 80.0 ;
+    edu:Subject "Histoire" ;
+    edu:Year "2023"^^xsd:gYear .
+
+ex:observation241 a cube:Observation ;
+    edu:AttendanceRate "96.67"^^xsd:float ;
+    edu:Class "Première Année" ;
+    edu:Score 93.33 ;
+    edu:Subject "Chimie" ;
+    edu:Year "2023"^^xsd:gYear .
+
+ex:observation242 a cube:Observation ;
+    edu:AttendanceRate "86.67"^^xsd:float ;
+    edu:Class "Deuxième Année" ;
+    edu:Score 73.33 ;
+    edu:Subject "Chimie" ;
+    edu:Year "2023"^^xsd:gYear .
+
+ex:observation243 a cube:Observation ;
+    edu:AttendanceRate "88.33"^^xsd:float ;
+    edu:Class "Troisième Année" ;
+    edu:Score 76.67 ;
+    edu:Subject "Chimie" ;
+    edu:Year "2023"^^xsd:gYear .
+
+ex:observation244 a cube:Observation ;
+    edu:AttendanceRate "90.0"^^xsd:float ;
+    edu:Class "Quatrième Année" ;
+    edu:Score 80.0 ;
+    edu:Subject "Chimie" ;
+    edu:Year "2023"^^xsd:gYear .
+
+ex:observation245 a cube:Observation ;
+    edu:AttendanceRate "95.0"^^xsd:float ;
+    edu:Class "Cinquième Année" ;
+    edu:Score 90.0 ;
+    edu:Subject "Chimie" ;
+    edu:Year "2023"^^xsd:gYear .
+
+ex:observation246 a cube:Observation ;
+    edu:AttendanceRate "95.0"^^xsd:float ;
+    edu:Class "Sixième Année" ;
+    edu:Score 90.0 ;
+    edu:Subject "Chimie" ;
+    edu:Year "2023"^^xsd:gYear .
+
+ex:observation247 a cube:Observation ;
+    edu:AttendanceRate "90.0"^^xsd:float ;
+    edu:Class "Première Année" ;
+    edu:Score 80.0 ;
+    edu:Subject "Technologie" ;
+    edu:Year "2023"^^xsd:gYear .
+
+ex:observation248 a cube:Observation ;
+    edu:AttendanceRate "96.67"^^xsd:float ;
+    edu:Class "Deuxième Année" ;
+    edu:Score 93.33 ;
+    edu:Subject "Technologie" ;
+    edu:Year "2023"^^xsd:gYear .
+
+ex:observation249 a cube:Observation ;
+    edu:AttendanceRate "95.0"^^xsd:float ;
+    edu:Class "Troisième Année" ;
+    edu:Score 90.0 ;
+    edu:Subject "Technologie" ;
+    edu:Year "2023"^^xsd:gYear .
+
+ex:observation25 a cube:Observation ;
+    edu:AttendanceRate "98.33"^^xsd:float ;
+    edu:Class "Première Année" ;
+    edu:Score 96.67 ;
+    edu:Subject "Chimie" ;
+    edu:Year "2019"^^xsd:gYear .
+
+ex:observation250 a cube:Observation ;
+    edu:AttendanceRate "96.67"^^xsd:float ;
+    edu:Class "Quatrième Année" ;
+    edu:Score 93.33 ;
+    edu:Subject "Technologie" ;
+    edu:Year "2023"^^xsd:gYear .
+
+ex:observation251 a cube:Observation ;
+    edu:AttendanceRate "93.33"^^xsd:float ;
+    edu:Class "Cinquième Année" ;
+    edu:Score 86.67 ;
+    edu:Subject "Technologie" ;
+    edu:Year "2023"^^xsd:gYear .
+
+ex:observation252 a cube:Observation ;
+    edu:AttendanceRate "86.67"^^xsd:float ;
+    edu:Class "Sixième Année" ;
+    edu:Score 73.33 ;
+    edu:Subject "Technologie" ;
+    edu:Year "2023"^^xsd:gYear .
+
+ex:observation253 a cube:Observation ;
+    edu:AttendanceRate "95.0"^^xsd:float ;
+    edu:Class "Première Année" ;
+    edu:Score 90.0 ;
+    edu:Subject "Français" ;
+    edu:Year "2023"^^xsd:gYear .
+
+ex:observation254 a cube:Observation ;
+    edu:AttendanceRate "93.33"^^xsd:float ;
+    edu:Class "Deuxième Année" ;
+    edu:Score 86.67 ;
+    edu:Subject "Français" ;
+    edu:Year "2023"^^xsd:gYear .
+
+ex:observation255 a cube:Observation ;
+    edu:AttendanceRate "93.33"^^xsd:float ;
+    edu:Class "Troisième Année" ;
+    edu:Score 86.67 ;
+    edu:Subject "Français" ;
+    edu:Year "2023"^^xsd:gYear .
+
+ex:observation256 a cube:Observation ;
+    edu:AttendanceRate "98.33"^^xsd:float ;
+    edu:Class "Quatrième Année" ;
+    edu:Score 96.67 ;
+    edu:Subject "Français" ;
+    edu:Year "2023"^^xsd:gYear .
+
+ex:observation257 a cube:Observation ;
+    edu:AttendanceRate "95.0"^^xsd:float ;
+    edu:Class "Cinquième Année" ;
+    edu:Score 90.0 ;
+    edu:Subject "Français" ;
+    edu:Year "2023"^^xsd:gYear .
+
+ex:observation258 a cube:Observation ;
+    edu:AttendanceRate "98.33"^^xsd:float ;
+    edu:Class "Sixième Année" ;
+    edu:Score 96.67 ;
+    edu:Subject "Français" ;
+    edu:Year "2023"^^xsd:gYear .
+
+ex:observation259 a cube:Observation ;
+    edu:AttendanceRate "85.0"^^xsd:float ;
+    edu:Class "Première Année" ;
+    edu:Score 70.0 ;
+    edu:Subject "Anglais" ;
+    edu:Year "2023"^^xsd:gYear .
+
+ex:observation26 a cube:Observation ;
+    edu:AttendanceRate "86.67"^^xsd:float ;
+    edu:Class "Deuxième Année" ;
+    edu:Score 73.33 ;
+    edu:Subject "Chimie" ;
+    edu:Year "2019"^^xsd:gYear .
+
+ex:observation260 a cube:Observation ;
+    edu:AttendanceRate "100.0"^^xsd:float ;
+    edu:Class "Deuxième Année" ;
+    edu:Score 100.0 ;
+    edu:Subject "Anglais" ;
+    edu:Year "2023"^^xsd:gYear .
+
+ex:observation261 a cube:Observation ;
+    edu:AttendanceRate "88.33"^^xsd:float ;
+    edu:Class "Troisième Année" ;
+    edu:Score 76.67 ;
+    edu:Subject "Anglais" ;
+    edu:Year "2023"^^xsd:gYear .
+
+ex:observation262 a cube:Observation ;
+    edu:AttendanceRate "96.67"^^xsd:float ;
+    edu:Class "Quatrième Année" ;
+    edu:Score 93.33 ;
+    edu:Subject "Anglais" ;
+    edu:Year "2023"^^xsd:gYear .
+
+ex:observation263 a cube:Observation ;
+    edu:AttendanceRate "96.67"^^xsd:float ;
+    edu:Class "Cinquième Année" ;
+    edu:Score 93.33 ;
+    edu:Subject "Anglais" ;
+    edu:Year "2023"^^xsd:gYear .
+
+ex:observation264 a cube:Observation ;
+    edu:AttendanceRate "85.0"^^xsd:float ;
+    edu:Class "Sixième Année" ;
+    edu:Score 70.0 ;
+    edu:Subject "Anglais" ;
+    edu:Year "2023"^^xsd:gYear .
+
+ex:observation265 a cube:Observation ;
+    edu:AttendanceRate "85.0"^^xsd:float ;
+    edu:Class "Première Année" ;
+    edu:Score 70.0 ;
+    edu:Subject "Trigonométrie" ;
+    edu:Year "2023"^^xsd:gYear .
+
+ex:observation266 a cube:Observation ;
+    edu:AttendanceRate "85.0"^^xsd:float ;
+    edu:Class "Deuxième Année" ;
+    edu:Score 70.0 ;
+    edu:Subject "Trigonométrie" ;
+    edu:Year "2023"^^xsd:gYear .
+
+ex:observation267 a cube:Observation ;
+    edu:AttendanceRate "100.0"^^xsd:float ;
+    edu:Class "Troisième Année" ;
+    edu:Score 100.0 ;
+    edu:Subject "Trigonométrie" ;
+    edu:Year "2023"^^xsd:gYear .
+
+ex:observation268 a cube:Observation ;
+    edu:AttendanceRate "88.33"^^xsd:float ;
+    edu:Class "Quatrième Année" ;
+    edu:Score 76.67 ;
+    edu:Subject "Trigonométrie" ;
+    edu:Year "2023"^^xsd:gYear .
+
+ex:observation269 a cube:Observation ;
+    edu:AttendanceRate "96.67"^^xsd:float ;
+    edu:Class "Cinquième Année" ;
+    edu:Score 93.33 ;
+    edu:Subject "Trigonométrie" ;
+    edu:Year "2023"^^xsd:gYear .
+
+ex:observation27 a cube:Observation ;
+    edu:AttendanceRate "100.0"^^xsd:float ;
+    edu:Class "Troisième Année" ;
+    edu:Score 100.0 ;
+    edu:Subject "Chimie" ;
+    edu:Year "2019"^^xsd:gYear .
+
+ex:observation270 a cube:Observation ;
+    edu:AttendanceRate "90.0"^^xsd:float ;
+    edu:Class "Sixième Année" ;
+    edu:Score 80.0 ;
+    edu:Subject "Trigonométrie" ;
+    edu:Year "2023"^^xsd:gYear .
+
+ex:observation28 a cube:Observation ;
+    edu:AttendanceRate "95.0"^^xsd:float ;
+    edu:Class "Quatrième Année" ;
+    edu:Score 90.0 ;
+    edu:Subject "Chimie" ;
+    edu:Year "2019"^^xsd:gYear .
+
+ex:observation29 a cube:Observation ;
+    edu:AttendanceRate "100.0"^^xsd:float ;
+    edu:Class "Cinquième Année" ;
+    edu:Score 100.0 ;
+    edu:Subject "Chimie" ;
+    edu:Year "2019"^^xsd:gYear .
+
+ex:observation3 a cube:Observation ;
+    edu:AttendanceRate "88.33"^^xsd:float ;
+    edu:Class "Troisième Année" ;
+    edu:Score 76.67 ;
+    edu:Subject "Mathématiques" ;
+    edu:Year "2019"^^xsd:gYear .
+
+ex:observation30 a cube:Observation ;
+    edu:AttendanceRate "90.0"^^xsd:float ;
+    edu:Class "Sixième Année" ;
+    edu:Score 80.0 ;
+    edu:Subject "Chimie" ;
+    edu:Year "2019"^^xsd:gYear .
+
+ex:observation31 a cube:Observation ;
+    edu:AttendanceRate "86.67"^^xsd:float ;
+    edu:Class "Première Année" ;
+    edu:Score 73.33 ;
+    edu:Subject "Technologie" ;
+    edu:Year "2019"^^xsd:gYear .
+
+ex:observation32 a cube:Observation ;
+    edu:AttendanceRate "93.33"^^xsd:float ;
+    edu:Class "Deuxième Année" ;
+    edu:Score 86.67 ;
+    edu:Subject "Technologie" ;
+    edu:Year "2019"^^xsd:gYear .
+
+ex:observation33 a cube:Observation ;
+    edu:AttendanceRate "100.0"^^xsd:float ;
+    edu:Class "Troisième Année" ;
+    edu:Score 100.0 ;
+    edu:Subject "Technologie" ;
+    edu:Year "2019"^^xsd:gYear .
+
+ex:observation34 a cube:Observation ;
+    edu:AttendanceRate "88.33"^^xsd:float ;
+    edu:Class "Quatrième Année" ;
+    edu:Score 76.67 ;
+    edu:Subject "Technologie" ;
+    edu:Year "2019"^^xsd:gYear .
+
+ex:observation35 a cube:Observation ;
+    edu:AttendanceRate "100.0"^^xsd:float ;
+    edu:Class "Cinquième Année" ;
+    edu:Score 100.0 ;
+    edu:Subject "Technologie" ;
+    edu:Year "2019"^^xsd:gYear .
+
+ex:observation36 a cube:Observation ;
+    edu:AttendanceRate "91.67"^^xsd:float ;
+    edu:Class "Sixième Année" ;
+    edu:Score 83.33 ;
+    edu:Subject "Technologie" ;
+    edu:Year "2019"^^xsd:gYear .
+
+ex:observation37 a cube:Observation ;
+    edu:AttendanceRate "93.33"^^xsd:float ;
+    edu:Class "Première Année" ;
+    edu:Score 86.67 ;
+    edu:Subject "Français" ;
+    edu:Year "2019"^^xsd:gYear .
+
+ex:observation38 a cube:Observation ;
+    edu:AttendanceRate "85.0"^^xsd:float ;
+    edu:Class "Deuxième Année" ;
+    edu:Score 70.0 ;
+    edu:Subject "Français" ;
+    edu:Year "2019"^^xsd:gYear .
+
+ex:observation39 a cube:Observation ;
+    edu:AttendanceRate "98.33"^^xsd:float ;
+    edu:Class "Troisième Année" ;
+    edu:Score 96.67 ;
+    edu:Subject "Français" ;
+    edu:Year "2019"^^xsd:gYear .
+
+ex:observation4 a cube:Observation ;
+    edu:AttendanceRate "85.0"^^xsd:float ;
+    edu:Class "Quatrième Année" ;
+    edu:Score 70.0 ;
+    edu:Subject "Mathématiques" ;
+    edu:Year "2019"^^xsd:gYear .
+
+ex:observation40 a cube:Observation ;
+    edu:AttendanceRate "85.0"^^xsd:float ;
+    edu:Class "Quatrième Année" ;
+    edu:Score 70.0 ;
+    edu:Subject "Français" ;
+    edu:Year "2019"^^xsd:gYear .
+
+ex:observation41 a cube:Observation ;
+    edu:AttendanceRate "91.67"^^xsd:float ;
+    edu:Class "Cinquième Année" ;
+    edu:Score 83.33 ;
+    edu:Subject "Français" ;
+    edu:Year "2019"^^xsd:gYear .
+
+ex:observation42 a cube:Observation ;
+    edu:AttendanceRate "88.33"^^xsd:float ;
+    edu:Class "Sixième Année" ;
+    edu:Score 76.67 ;
+    edu:Subject "Français" ;
+    edu:Year "2019"^^xsd:gYear .
+
+ex:observation43 a cube:Observation ;
+    edu:AttendanceRate "95.0"^^xsd:float ;
+    edu:Class "Première Année" ;
+    edu:Score 90.0 ;
+    edu:Subject "Anglais" ;
+    edu:Year "2019"^^xsd:gYear .
+
+ex:observation44 a cube:Observation ;
+    edu:AttendanceRate "86.67"^^xsd:float ;
+    edu:Class "Deuxième Année" ;
+    edu:Score 73.33 ;
+    edu:Subject "Anglais" ;
+    edu:Year "2019"^^xsd:gYear .
+
+ex:observation45 a cube:Observation ;
+    edu:AttendanceRate "90.0"^^xsd:float ;
+    edu:Class "Troisième Année" ;
+    edu:Score 80.0 ;
+    edu:Subject "Anglais" ;
+    edu:Year "2019"^^xsd:gYear .
+
+ex:observation46 a cube:Observation ;
+    edu:AttendanceRate "100.0"^^xsd:float ;
+    edu:Class "Quatrième Année" ;
+    edu:Score 100.0 ;
+    edu:Subject "Anglais" ;
+    edu:Year "2019"^^xsd:gYear .
+
+ex:observation47 a cube:Observation ;
+    edu:AttendanceRate "96.67"^^xsd:float ;
+    edu:Class "Cinquième Année" ;
+    edu:Score 93.33 ;
+    edu:Subject "Anglais" ;
+    edu:Year "2019"^^xsd:gYear .
+
+ex:observation48 a cube:Observation ;
+    edu:AttendanceRate "100.0"^^xsd:float ;
+    edu:Class "Sixième Année" ;
+    edu:Score 100.0 ;
+    edu:Subject "Anglais" ;
+    edu:Year "2019"^^xsd:gYear .
+
+ex:observation49 a cube:Observation ;
+    edu:AttendanceRate "95.0"^^xsd:float ;
+    edu:Class "Première Année" ;
+    edu:Score 90.0 ;
+    edu:Subject "Trigonométrie" ;
+    edu:Year "2019"^^xsd:gYear .
+
+ex:observation5 a cube:Observation ;
+    edu:AttendanceRate "91.67"^^xsd:float ;
+    edu:Class "Cinquième Année" ;
+    edu:Score 83.33 ;
+    edu:Subject "Mathématiques" ;
+    edu:Year "2019"^^xsd:gYear .
+
+ex:observation50 a cube:Observation ;
+    edu:AttendanceRate "100.0"^^xsd:float ;
+    edu:Class "Deuxième Année" ;
+    edu:Score 100.0 ;
+    edu:Subject "Trigonométrie" ;
+    edu:Year "2019"^^xsd:gYear .
+
+ex:observation51 a cube:Observation ;
+    edu:AttendanceRate "85.0"^^xsd:float ;
+    edu:Class "Troisième Année" ;
+    edu:Score 70.0 ;
+    edu:Subject "Trigonométrie" ;
+    edu:Year "2019"^^xsd:gYear .
+
+ex:observation52 a cube:Observation ;
+    edu:AttendanceRate "96.67"^^xsd:float ;
+    edu:Class "Quatrième Année" ;
+    edu:Score 93.33 ;
+    edu:Subject "Trigonométrie" ;
+    edu:Year "2019"^^xsd:gYear .
+
+ex:observation53 a cube:Observation ;
+    edu:AttendanceRate "98.33"^^xsd:float ;
+    edu:Class "Cinquième Année" ;
+    edu:Score 96.67 ;
+    edu:Subject "Trigonométrie" ;
+    edu:Year "2019"^^xsd:gYear .
+
+ex:observation54 a cube:Observation ;
+    edu:AttendanceRate "100.0"^^xsd:float ;
+    edu:Class "Sixième Année" ;
+    edu:Score 100.0 ;
+    edu:Subject "Trigonométrie" ;
+    edu:Year "2019"^^xsd:gYear .
+
+ex:observation55 a cube:Observation ;
+    edu:AttendanceRate "88.33"^^xsd:float ;
+    edu:Class "Première Année" ;
+    edu:Score 76.67 ;
+    edu:Subject "Mathématiques" ;
+    edu:Year "2020"^^xsd:gYear .
+
+ex:observation56 a cube:Observation ;
+    edu:AttendanceRate "85.0"^^xsd:float ;
+    edu:Class "Deuxième Année" ;
+    edu:Score 70.0 ;
+    edu:Subject "Mathématiques" ;
+    edu:Year "2020"^^xsd:gYear .
+
+ex:observation57 a cube:Observation ;
+    edu:AttendanceRate "85.0"^^xsd:float ;
+    edu:Class "Troisième Année" ;
+    edu:Score 70.0 ;
+    edu:Subject "Mathématiques" ;
+    edu:Year "2020"^^xsd:gYear .
+
+ex:observation58 a cube:Observation ;
+    edu:AttendanceRate "100.0"^^xsd:float ;
+    edu:Class "Quatrième Année" ;
+    edu:Score 100.0 ;
+    edu:Subject "Mathématiques" ;
+    edu:Year "2020"^^xsd:gYear .
+
+ex:observation59 a cube:Observation ;
+    edu:AttendanceRate "86.67"^^xsd:float ;
+    edu:Class "Cinquième Année" ;
+    edu:Score 73.33 ;
+    edu:Subject "Mathématiques" ;
+    edu:Year "2020"^^xsd:gYear .
+
+ex:observation6 a cube:Observation ;
+    edu:AttendanceRate "90.0"^^xsd:float ;
+    edu:Class "Sixième Année" ;
+    edu:Score 80.0 ;
+    edu:Subject "Mathématiques" ;
+    edu:Year "2019"^^xsd:gYear .
+
+ex:observation60 a cube:Observation ;
+    edu:AttendanceRate "93.33"^^xsd:float ;
+    edu:Class "Sixième Année" ;
+    edu:Score 86.67 ;
+    edu:Subject "Mathématiques" ;
+    edu:Year "2020"^^xsd:gYear .
+
+ex:observation61 a cube:Observation ;
+    edu:AttendanceRate "93.33"^^xsd:float ;
+    edu:Class "Première Année" ;
+    edu:Score 86.67 ;
+    edu:Subject "Science" ;
+    edu:Year "2020"^^xsd:gYear .
+
+ex:observation62 a cube:Observation ;
+    edu:AttendanceRate "88.33"^^xsd:float ;
+    edu:Class "Deuxième Année" ;
+    edu:Score 76.67 ;
+    edu:Subject "Science" ;
+    edu:Year "2020"^^xsd:gYear .
+
+ex:observation63 a cube:Observation ;
+    edu:AttendanceRate "93.33"^^xsd:float ;
+    edu:Class "Troisième Année" ;
+    edu:Score 86.67 ;
+    edu:Subject "Science" ;
+    edu:Year "2020"^^xsd:gYear .
+
+ex:observation64 a cube:Observation ;
+    edu:AttendanceRate "100.0"^^xsd:float ;
+    edu:Class "Quatrième Année" ;
+    edu:Score 100.0 ;
+    edu:Subject "Science" ;
+    edu:Year "2020"^^xsd:gYear .
+
+ex:observation65 a cube:Observation ;
+    edu:AttendanceRate "85.0"^^xsd:float ;
+    edu:Class "Cinquième Année" ;
+    edu:Score 70.0 ;
+    edu:Subject "Science" ;
+    edu:Year "2020"^^xsd:gYear .
+
+ex:observation66 a cube:Observation ;
+    edu:AttendanceRate "100.0"^^xsd:float ;
+    edu:Class "Sixième Année" ;
+    edu:Score 100.0 ;
+    edu:Subject "Science" ;
+    edu:Year "2020"^^xsd:gYear .
+
+ex:observation67 a cube:Observation ;
+    edu:AttendanceRate "93.33"^^xsd:float ;
+    edu:Class "Première Année" ;
+    edu:Score 86.67 ;
+    edu:Subject "Géographie" ;
+    edu:Year "2020"^^xsd:gYear .
+
+ex:observation68 a cube:Observation ;
+    edu:AttendanceRate "100.0"^^xsd:float ;
+    edu:Class "Deuxième Année" ;
+    edu:Score 100.0 ;
+    edu:Subject "Géographie" ;
+    edu:Year "2020"^^xsd:gYear .
+
+ex:observation69 a cube:Observation ;
+    edu:AttendanceRate "93.33"^^xsd:float ;
+    edu:Class "Troisième Année" ;
+    edu:Score 86.67 ;
+    edu:Subject "Géographie" ;
+    edu:Year "2020"^^xsd:gYear .
+
+ex:observation7 a cube:Observation ;
+    edu:AttendanceRate "95.0"^^xsd:float ;
+    edu:Class "Première Année" ;
+    edu:Score 90.0 ;
+    edu:Subject "Science" ;
+    edu:Year "2019"^^xsd:gYear .
+
+ex:observation70 a cube:Observation ;
+    edu:AttendanceRate "95.0"^^xsd:float ;
+    edu:Class "Quatrième Année" ;
+    edu:Score 90.0 ;
+    edu:Subject "Géographie" ;
+    edu:Year "2020"^^xsd:gYear .
+
+ex:observation71 a cube:Observation ;
+    edu:AttendanceRate "85.0"^^xsd:float ;
+    edu:Class "Cinquième Année" ;
+    edu:Score 70.0 ;
+    edu:Subject "Géographie" ;
+    edu:Year "2020"^^xsd:gYear .
+
+ex:observation72 a cube:Observation ;
+    edu:AttendanceRate "98.33"^^xsd:float ;
+    edu:Class "Sixième Année" ;
+    edu:Score 96.67 ;
+    edu:Subject "Géographie" ;
+    edu:Year "2020"^^xsd:gYear .
+
+ex:observation73 a cube:Observation ;
+    edu:AttendanceRate "86.67"^^xsd:float ;
+    edu:Class "Première Année" ;
+    edu:Score 73.33 ;
+    edu:Subject "Histoire" ;
+    edu:Year "2020"^^xsd:gYear .
+
+ex:observation74 a cube:Observation ;
+    edu:AttendanceRate "95.0"^^xsd:float ;
+    edu:Class "Deuxième Année" ;
+    edu:Score 90.0 ;
+    edu:Subject "Histoire" ;
+    edu:Year "2020"^^xsd:gYear .
+
+ex:observation75 a cube:Observation ;
+    edu:AttendanceRate "90.0"^^xsd:float ;
+    edu:Class "Troisième Année" ;
+    edu:Score 80.0 ;
+    edu:Subject "Histoire" ;
+    edu:Year "2020"^^xsd:gYear .
+
+ex:observation76 a cube:Observation ;
+    edu:AttendanceRate "86.67"^^xsd:float ;
+    edu:Class "Quatrième Année" ;
+    edu:Score 73.33 ;
+    edu:Subject "Histoire" ;
+    edu:Year "2020"^^xsd:gYear .
+
+ex:observation77 a cube:Observation ;
+    edu:AttendanceRate "85.0"^^xsd:float ;
+    edu:Class "Cinquième Année" ;
+    edu:Score 70.0 ;
+    edu:Subject "Histoire" ;
+    edu:Year "2020"^^xsd:gYear .
+
+ex:observation78 a cube:Observation ;
+    edu:AttendanceRate "86.67"^^xsd:float ;
+    edu:Class "Sixième Année" ;
+    edu:Score 73.33 ;
+    edu:Subject "Histoire" ;
+    edu:Year "2020"^^xsd:gYear .
+
+ex:observation79 a cube:Observation ;
+    edu:AttendanceRate "85.0"^^xsd:float ;
+    edu:Class "Première Année" ;
+    edu:Score 70.0 ;
+    edu:Subject "Chimie" ;
+    edu:Year "2020"^^xsd:gYear .
+
+ex:observation8 a cube:Observation ;
+    edu:AttendanceRate "95.0"^^xsd:float ;
+    edu:Class "Deuxième Année" ;
+    edu:Score 90.0 ;
+    edu:Subject "Science" ;
+    edu:Year "2019"^^xsd:gYear .
+
+ex:observation80 a cube:Observation ;
+    edu:AttendanceRate "85.0"^^xsd:float ;
+    edu:Class "Deuxième Année" ;
+    edu:Score 70.0 ;
+    edu:Subject "Chimie" ;
+    edu:Year "2020"^^xsd:gYear .
+
+ex:observation81 a cube:Observation ;
+    edu:AttendanceRate "91.67"^^xsd:float ;
+    edu:Class "Troisième Année" ;
+    edu:Score 83.33 ;
+    edu:Subject "Chimie" ;
+    edu:Year "2020"^^xsd:gYear .
+
+ex:observation82 a cube:Observation ;
+    edu:AttendanceRate "95.0"^^xsd:float ;
+    edu:Class "Quatrième Année" ;
+    edu:Score 90.0 ;
+    edu:Subject "Chimie" ;
+    edu:Year "2020"^^xsd:gYear .
+
+ex:observation83 a cube:Observation ;
+    edu:AttendanceRate "90.0"^^xsd:float ;
+    edu:Class "Cinquième Année" ;
+    edu:Score 80.0 ;
+    edu:Subject "Chimie" ;
+    edu:Year "2020"^^xsd:gYear .
+
+ex:observation84 a cube:Observation ;
+    edu:AttendanceRate "98.33"^^xsd:float ;
+    edu:Class "Sixième Année" ;
+    edu:Score 96.67 ;
+    edu:Subject "Chimie" ;
+    edu:Year "2020"^^xsd:gYear .
+
+ex:observation85 a cube:Observation ;
+    edu:AttendanceRate "98.33"^^xsd:float ;
+    edu:Class "Première Année" ;
+    edu:Score 96.67 ;
+    edu:Subject "Technologie" ;
+    edu:Year "2020"^^xsd:gYear .
+
+ex:observation86 a cube:Observation ;
+    edu:AttendanceRate "100.0"^^xsd:float ;
+    edu:Class "Deuxième Année" ;
+    edu:Score 100.0 ;
+    edu:Subject "Technologie" ;
+    edu:Year "2020"^^xsd:gYear .
+
+ex:observation87 a cube:Observation ;
+    edu:AttendanceRate "96.67"^^xsd:float ;
+    edu:Class "Troisième Année" ;
+    edu:Score 93.33 ;
+    edu:Subject "Technologie" ;
+    edu:Year "2020"^^xsd:gYear .
+
+ex:observation88 a cube:Observation ;
+    edu:AttendanceRate "93.33"^^xsd:float ;
+    edu:Class "Quatrième Année" ;
+    edu:Score 86.67 ;
+    edu:Subject "Technologie" ;
+    edu:Year "2020"^^xsd:gYear .
+
+ex:observation89 a cube:Observation ;
+    edu:AttendanceRate "98.33"^^xsd:float ;
+    edu:Class "Cinquième Année" ;
+    edu:Score 96.67 ;
+    edu:Subject "Technologie" ;
+    edu:Year "2020"^^xsd:gYear .
+
+ex:observation9 a cube:Observation ;
+    edu:AttendanceRate "90.0"^^xsd:float ;
+    edu:Class "Troisième Année" ;
+    edu:Score 80.0 ;
+    edu:Subject "Science" ;
+    edu:Year "2019"^^xsd:gYear .
+
+ex:observation90 a cube:Observation ;
+    edu:AttendanceRate "90.0"^^xsd:float ;
+    edu:Class "Sixième Année" ;
+    edu:Score 80.0 ;
+    edu:Subject "Technologie" ;
+    edu:Year "2020"^^xsd:gYear .
+
+ex:observation91 a cube:Observation ;
+    edu:AttendanceRate "91.67"^^xsd:float ;
+    edu:Class "Première Année" ;
+    edu:Score 83.33 ;
+    edu:Subject "Français" ;
+    edu:Year "2020"^^xsd:gYear .
+
+ex:observation92 a cube:Observation ;
+    edu:AttendanceRate "88.33"^^xsd:float ;
+    edu:Class "Deuxième Année" ;
+    edu:Score 76.67 ;
+    edu:Subject "Français" ;
+    edu:Year "2020"^^xsd:gYear .
+
+ex:observation93 a cube:Observation ;
+    edu:AttendanceRate "85.0"^^xsd:float ;
+    edu:Class "Troisième Année" ;
+    edu:Score 70.0 ;
+    edu:Subject "Français" ;
+    edu:Year "2020"^^xsd:gYear .
+
+ex:observation94 a cube:Observation ;
+    edu:AttendanceRate "90.0"^^xsd:float ;
+    edu:Class "Quatrième Année" ;
+    edu:Score 80.0 ;
+    edu:Subject "Français" ;
+    edu:Year "2020"^^xsd:gYear .
+
+ex:observation95 a cube:Observation ;
+    edu:AttendanceRate "85.0"^^xsd:float ;
+    edu:Class "Cinquième Année" ;
+    edu:Score 70.0 ;
+    edu:Subject "Français" ;
+    edu:Year "2020"^^xsd:gYear .
+
+ex:observation96 a cube:Observation ;
+    edu:AttendanceRate "95.0"^^xsd:float ;
+    edu:Class "Sixième Année" ;
+    edu:Score 90.0 ;
+    edu:Subject "Français" ;
+    edu:Year "2020"^^xsd:gYear .
+
+ex:observation97 a cube:Observation ;
+    edu:AttendanceRate "91.67"^^xsd:float ;
+    edu:Class "Première Année" ;
+    edu:Score 83.33 ;
+    edu:Subject "Anglais" ;
+    edu:Year "2020"^^xsd:gYear .
+
+ex:observation98 a cube:Observation ;
+    edu:AttendanceRate "88.33"^^xsd:float ;
+    edu:Class "Deuxième Année" ;
+    edu:Score 76.67 ;
+    edu:Subject "Anglais" ;
+    edu:Year "2020"^^xsd:gYear .
+
+ex:observation99 a cube:Observation ;
+    edu:AttendanceRate "91.67"^^xsd:float ;
+    edu:Class "Troisième Année" ;
+    edu:Score 83.33 ;
+    edu:Subject "Anglais" ;
+    edu:Year "2020"^^xsd:gYear .
+
