@@ -74,7 +74,7 @@ Après exécution de la requête, les résultats sont présentés et enrichis pa
 1. Clonez le dépôt GitHub :
    ```bash
    git clone https://github.com/DavidLUTALA/ChatDoc-LLM-RDFCubes.git
-   cd suivi-performance-educative
+   cd ChatDoc-LLM-RDFCubes
    ```
 
 2. Créer un environnement virtuel et l'activer :
