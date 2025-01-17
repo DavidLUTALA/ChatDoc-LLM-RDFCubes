@@ -2,6 +2,10 @@
 
 Ce projet est une application interactive permettant d'analyser les performances éducatives à l'aide de technologies avancées comme les bases de données RDF Cubes, les requêtes SPARQL et les modèles de langage (“Large Language Models”). Elle est développée avec **Streamlit** pour offrir une interface conviviale et interactive.
 
+
+https://github.com/user-attachments/assets/d642899e-e688-4e87-b085-001fc6045058
+
+
 ---
 
 ## 📊 Objectif du projet
