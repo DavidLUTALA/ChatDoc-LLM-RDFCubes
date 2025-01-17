@@ -8,7 +8,7 @@ Ce projet est une application interactive permettant d'analyser les performances
 
 L'objectif principal de cette application est de fournir des **insights éducatifs** basés sur les données étudiantes, comme les scores moyens par matière, classe et année. En plus de calculer des statistiques, l'application offre des **recommandations** personnalisées pour améliorer les performances des élèves.
 
-![Alt text](Images/Image1.jpg)
+![Alt text](Images/Image3.png)
 
 ---
 
