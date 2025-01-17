@@ -128,7 +128,7 @@ source .venv/bin/activate
 
 ## 🚀 Auteurs
 
-- **David Lutala Lushuli, BYAOMBE MWINDULWA, Priscile EBWALLA EBWALETTE, Haback Marthe Désirée Olivia**
+- **David LUTALA LUSHULI, BYAOMBE MWINDULWA, Priscile EBWALLA EBWALETTE, Haback Marthe Désirée Olivia**
   - LinkedIn : [DavidLUTALA](https://www.linkedin.com/in/david-lutala-719952164/)
   - GitHub : [DavidLUTALA](https://github.com/DavidLUTALA)
 
